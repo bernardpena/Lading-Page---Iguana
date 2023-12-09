@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    padding: 0;
     background-color:#000000;
     font-family: "Raleway", sans-serif;
 }
@@ -43,7 +44,7 @@ section {
 }
 
 
-/*Descripcioin*/
+/*Descripcion*/
 .descripcion-sec {
     display: Flex;
     background-color: #000000;
@@ -54,9 +55,8 @@ section {
 
 .desc-sec-tex {
     display: block;
+    padding-top: 76px;
     padding-left: 150px;
-    top: 876px;
-    left: 150px;
     width: 475px;
     height: 197px;
     text-align: left;
@@ -68,6 +68,7 @@ section {
 }
 
 .desc-sec-img-iguana_1 {
+    padding-top: 45px;
     padding-left: 106px;
     top: 845px;
     left: 731px;
@@ -77,64 +78,85 @@ section {
 }
 
 /*Caracteristicas*/
-.sec-iconos {
-    display: flexbox;
-    align-content: center;
+.caracteristicas {
     top: 1141px;
     left: 0px;
     width: 1280px;
     height: 348px;
     background-color: #1E1A13;
     opacity: 0.98;
-    width: 100%;
 }
-
-.sec-iconos h2 {
-    padding-top: 47px;
+.caracteristicas h2 {
+    padding-top: 75px;
     padding-left: 463.5px;
+    margin-top: 0px;
+    margin-bottom: 0px;
     width: 356px;
     height: 47px;
-    text-align: left;
+    text-align: center;
     font-size: 40px;
-    font-weight: 500;
+    font-weight: 400;
     letter-spacing: 0px;
     opacity: 1;
 }
 
-.centrado-iconos {
+.flex {
     display: flex;
-    flex-direction: row;
-    align-content: space-between;
-    align-items: center;
-    width: 100%;
 }
 
 .fa-eye {
     padding-top: 70px;
     padding-left: 326px;
-    width: 57px;
-    height: 36.64px;
+    padding-bottom: 0px;
+    margin-right: 10px;
+}
+
+.parrafo {
+    padding-top: 0px;
+    padding-left: 301px;
+    width: 108px;
+    height: 29px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 300;
 }
 
 .fa-hand-peace {
-    padding-top: 50px;
-    padding-left: 232px;
-    width: 39px;
-    height: 57px;
+    padding-top: 70px;
+    padding-left: 227.1px;
+    padding-bottom: 0px;
+}
+
+.parrafo1 {
+    padding-top: 0px;
+    padding-left: 192px;
+    margin-left: 10px;
+    width: 98px;
+    height: 30px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 300;
 }
 
 .fa-paint-brush {
-    padding-top: 57px;
-    padding-left: 255px;
-    padding-bottom: 16px;
-    width: 41px;
-    height: 49px;
+    padding-top: 70px;
+    padding-left: 215.66px;
+    padding-bottom: 0px;
+}
+
+.parrafo2 {
+    padding-top: 0px;
+    padding-left: 145.88px;
+    width: 202px;
+    height: 30px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 300;
 }
 
 
 /*3 Secction*/
 .sec-3 {
-    position: initial;
     top: 1448px;
     left: 0px;
     width: 1280px;
@@ -150,27 +172,24 @@ section {
 }
 
 #foto1 {
-    position: absolute;
-    top: 1561px;
-    left: 150px;
+    padding-top: 73px;
+    padding-left: 150px;
     width: 316px;
     height: 202px;
     opacity: 1;
 }
 
 #foto2 {
-    position: absolute;
-    top: 1561px;
-    left: 482px;
+    padding-top: 73px;
+    padding-left: 16px;
     width: 316px;
     height: 202px;
     opacity: 1;
 }
 
 #foto3 {
-    position: absolute;
-    top: 1561px;
-    left: 814px;
+    padding-top: 73px;
+    padding-left: 16px;
     width: 316px;
     height: 202px;
     opacity: 1;
@@ -178,7 +197,6 @@ section {
 
 /*Pie de Pagina*/
 footer {
-    position: relative;
     top: 1835px;
     left: 0px;
     width: 1280px;
@@ -187,11 +205,23 @@ footer {
 }
 
 footer p {
-    top: 1874px;
-    left: 299px;
+    padding-top: 39px;
+    padding-left: 299px;
     width: 682px;
     height: 24px;
     text-align: left;
+    font-size: 20px;
     font-weight: 300;
+    letter-spacing: 0px;
     opacity: 1;
+}
+
+a:link,
+a:active,
+a:visited,
+a:focus,
+a:hover
+{
+    color: #FFFFFF;
+    text-decoration: none;
 }
